@@ -79,7 +79,7 @@
  }
  @media(max-width: 900px){
     .f-section__about{
-        margin-top: 11.125rem;
+        margin-top: 8.125rem;
     }
  }
 
@@ -98,7 +98,7 @@
         max-width: 80%;
         margin: 0 auto 3rem;
         text-align: center;
-        font-size: 5.5rem;
+        font-size: 6rem;
         line-height: 8.3125rem;
     }
  }
@@ -129,8 +129,8 @@
         max-width: 83%;
         margin: 0 auto;
         text-align: center;
-        font-size: 2.125rem;
-        line-height: 3rem;
+        font-size: 2.3rem;
+        line-height: 3.5rem;
     }
 }
 
