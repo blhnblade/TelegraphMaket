@@ -1,13 +1,4 @@
-.fourth-section__card{
-}
-@media(max-width: 900px){
-    .fourth-section__card {
-        text-align: center;
-    }
-    .fourth-section__card:not(:last-child){
-        margin-bottom: 6rem;
-    }
-}
+
 
 
 .fourth-section__text{
@@ -70,7 +61,7 @@
 
 .fourth-section__card{
     display: block;
-    padding: 4.25rem 1.875rem;
+    padding: 1.25rem 1.875rem;
     max-width: 16.25rem;
     box-shadow: 0 0 1.5625rem rgba(0, 0, 0, 0.03);
     border-radius: 0.625rem;
@@ -79,6 +70,11 @@
     .fourth-section__card{
         margin: 0 auto;
         max-width: 83%;
+        text-align: center;
+        padding: 3.25rem 1.875rem 4.25rem;
+    }
+    .fourth-section__card:not(:last-child){
+        margin-bottom: 6rem;
     }
 }
 
