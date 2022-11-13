@@ -1,0 +1,124 @@
+.third-section__img-block_1{
+    max-width: 36.0625rem;
+    position: relative;
+}
+@media(max-width: 900px){
+    .third-section__img-block_1{
+        margin: 0 auto 3rem;
+        max-width: 83%;
+    }
+}
+
+
+.third-section__img_1{
+    position: relative;
+    width: 100%;
+    margin-left: -0.9375rem;
+    z-index: 2;
+    margin-top: 5.3125rem;
+}
+@media(max-width: 1365px){
+    .third-section__img_1{
+        margin-top: 3.2125rem;
+    }
+}
+@media(max-width: 1310px){
+    .third-section__img_1{
+        margin-left: 0;
+    }
+}
+
+
+.third-section__img-block_1::before{
+    content: "";
+    display: block;
+    background-image: url(../img/kvtochki.svg);
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: -7.125rem;
+    width: 15.559375rem;
+    height: 15.559375rem; 
+}
+@media(max-width: 1420px){
+    .third-section__img-block_1::before{
+        left: -5.9rem;
+        width: 11.50745rem;
+        height: 11.50745rem;
+    }
+}
+@media(max-width: 1365px){
+    .third-section__img-block_1::before{
+        left: -4.5rem;
+        width: 8.50745rem;
+        height: 8.50745rem;
+    }
+}
+@media(max-width: 1310px){
+    .third-section__img-block_1::before{
+        display: none;
+    }
+}
+
+
+
+.third-section__text{
+    max-width: 29.125rem;
+    margin-top: 10.125rem;
+    margin-left: 0.4375rem;
+}
+@media(max-width: 900px){
+    .third-section__text{
+        margin: 0 auto;
+        max-width: 83%;
+    }
+}
+
+
+.third-section__zag{
+    margin-bottom: 1.875rem;
+}
+@media(max-width: 900px){
+    .third-section__zag{
+        margin-bottom: 3rem;
+        }
+}
+
+.third-section__zag h2{
+    font-weight: 500;
+    font-size: 2.1875rem;
+    color: var(--color-darkblue); 
+    line-height: 3.125rem;
+}
+@media(max-width: 900px){
+    .third-section__zag h2{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+}
+
+.third-section__ph{
+}
+@media(max-width: 900px){
+    .third-section__ph{
+        text-align: justify;
+    }
+}
+
+.third-section__ph p{
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+@media(max-width: 900px){
+    .third-section__ph p{
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+}
+
+
+.third-section__ph_part1{
+    display: inline-block;
+    margin-bottom: 2.1875rem;
+}

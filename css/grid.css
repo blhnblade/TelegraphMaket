@@ -1,0 +1,76 @@
+:root{
+        --otstup: 1.875rem;
+}
+
+.container{
+        max-width: 71.25rem;
+        margin: 0 auto;
+}
+@media(max-width: 970px){
+        .container{
+                padding: 0 0.9375rem;
+        }
+}
+@media(max-width: 970px){
+        .container{
+                max-width: 70rem;
+        }
+}
+
+.row{
+        max-width: 71.1875rem;
+        margin: 0 auto;
+}
+
+.row:not(:last-child){
+        /* margin-bottom: ..rem; */
+}
+
+.row::after{
+        content:"";
+        display: block;
+        clear: both;
+}
+
+.col-1-of-3{
+        width: calc( (100% - var(--otstup)*2) / 3);
+        float: left;
+}
+@media(max-width: 900px){
+        .col-1-of-3{
+                width: 100%;
+                margin: 0 auto;
+        }
+}
+
+
+.col-1-of-3:not(:last-child){
+        margin-right: var(--otstup);
+}
+@media(max-width: 900px){
+       .col-1-of-3:not(:last-child){
+        margin-right: 0;
+        margin-bottom: 10rem;
+       } 
+}
+
+.col-1-of-2-not-otst{
+        width: calc(100% / 2);
+        float: left;
+}
+@media(max-width: 900px){
+        .col-1-of-2-not-otst{
+                width: 100%;
+        }
+}
+
+
+
+
+
+/*Отступы между колонками*/
+@media(max-width: 900px){
+        .f-section .container .row .col-1-of-2-not-otst:nth-child(1){
+                margin-bottom: 8rem;
+        }
+}

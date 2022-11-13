@@ -1,0 +1,28 @@
+.seventh-section__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(max-width: 900px){
+    .seventh-section__container{
+        flex-direction: column;
+        font-size: 1.3rem;
+    }
+}
+
+.seventh-section__ph_1{
+}
+@media(max-width: 900px){
+   .seventh-section__ph_1{
+    margin-bottom: 1.0625rem;
+   } 
+}
+
+.seventh-section__ph_2{
+    display: flex;
+    width: 17.0625rem;
+    flex-direction: row;
+    justify-content: space-between;
+}

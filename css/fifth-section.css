@@ -1,0 +1,109 @@
+.fifth-section__img-block_1{
+    max-width: 33.875rem;
+    position: relative;
+}
+@media(max-width: 900px){
+    .fifth-section__img-block_1{
+        margin: 0 auto 6rem;
+        max-width: 83%;
+    }
+}
+
+.fifth-section__img_1{
+    width: 100%;
+    margin-left: -0.9375rem;
+    position: relative;
+    z-index: 2;
+
+}
+@media(max-width: 1310px){
+    .fifth-section__img_1{
+        margin-left: 0;
+    }
+}
+
+
+.fifth-section__img-block_1::before{
+    content: "";
+    background-image: url(../img/kvtochki.svg);
+    background-size: contain;
+    width: 15.559375rem;
+    height: 15.559375rem;
+    position: absolute;
+    top: -5.3125rem;
+    left: 13.1875rem;
+}
+@media(max-width: 1420px){
+    .fifth-section__img-block_1::before{
+        width: 11.50745rem;
+        height: 11.50745rem;
+        top: -4.3125rem;
+        left: 15rem;
+    }
+}
+@media(max-width: 1365px){
+    .fifth-section__img-block_1::before{
+        width: 8.50745rem;
+        height: 8.50745rem;
+        top: -3.4125rem;
+        left: 16.4rem;
+
+    }
+}
+@media(max-width: 1310px){
+    .fifth-section__img-block_1::before{
+        display: none;
+    }
+}
+
+
+
+.fifth-section__text{
+    margin-top: 7.4375rem;
+    max-width: 29.125rem;
+    margin-left: 0.4375rem;
+}
+@media(max-width: 900px){
+    .fifth-section__text{
+        margin: 0 auto;
+        max-width: 83%;
+    }
+}
+
+.fifth-section__zag{
+    margin-bottom: 1.875rem;
+}
+@media(max-width: 900px){
+    .fifth-section__zag{
+        margin-bottom: 3rem;
+    }
+}
+
+
+
+.fifth-section__zag h2{
+    font-size: 2.1875rem;
+    color: var(--color-darkblue);
+    font-weight: 500;
+    line-height: 3.125rem;
+}
+@media(max-width: 900px){
+    .fifth-section__zag h2{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+}
+
+.fifth-section__ph{
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: var(--color-darkblue);
+    line-height: 1.75rem;
+}
+@media(max-width: 900px){
+    .fifth-section__ph{
+        text-align: justify;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+}

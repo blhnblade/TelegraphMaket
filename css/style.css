@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+@media(max-width: 1240px){
+    html{
+        font-size: 14.4px;
+    }
+}
+@media(max-width: 1070px){
+    html{
+        font-size: 12.8px;
+    }
+}
+@media(max-width: 600px){
+    html{
+        font-size: 7.68px;
+    }
+}
+@media(min-width: 1800px){
+    html{
+        font-size: 19.2px;
+    }
+}
+
+
+body{
+    font-family: 'Roboto';
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button_container{
+    display: inline-block;
+}
+
+
+.btn{
+    display: inline-block;
+    background-color: var(--color-red);
+    border-radius: 1.4375rem;
+}
