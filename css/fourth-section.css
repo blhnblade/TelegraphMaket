@@ -70,7 +70,7 @@
 
 .fourth-section__card{
     display: block;
-    padding: 1.25rem 1.875rem;
+    padding: 4.25rem 1.875rem;
     max-width: 16.25rem;
     box-shadow: 0 0 1.5625rem rgba(0, 0, 0, 0.03);
     border-radius: 0.625rem;
@@ -119,6 +119,7 @@
 @media(max-width: 900px){
     .fourth-section__card_container-1{
         max-width: 4.62rem;
+        margin-bottom: 3.630625rem;
     }
 }
 
@@ -130,6 +131,7 @@
 @media(max-width: 900px){
     .fourth-section__card_container-2{
         max-width: 3.9rem;
+        margin-bottom: 3.625rem;
     }
 }
 
@@ -141,6 +143,7 @@
 @media(max-width: 900px){
     .fourth-section__card_container-3{
         max-width: 4.974375rem;
+        margin-bottom: 3.7125rem;
     }
 }
 
@@ -161,7 +164,7 @@
         max-width: 100%;
         margin: 0 auto;
         font-size: 3.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
 }
 
